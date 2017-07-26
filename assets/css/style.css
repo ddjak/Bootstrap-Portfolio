@@ -4,6 +4,7 @@ body {
   line-height: 34px;
   color: #777;
   background: url("../images/concrete_seamless.png");
+  height:100%;
 }
 
 * {
@@ -107,18 +108,19 @@ footer {
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
+  padding-top: 60px;
 }
 
 /* sidebar */
 
 .sidebar {
-  float: right;
   width: 100%;
   max-width: 270px;
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
   border: 1px solid #ddd;
+  float:left;
 }
 
 h3,
@@ -143,7 +145,7 @@ h3,
 /* main */
 
 #main-container {
-  padding-top: 130px;
+  padding:10px;
 }
 
 .main-section {
@@ -174,12 +176,13 @@ h3,
   width: 100%;
   border: 0 none;
   opacity: 0.8;
+
 }
 
 .work h3 {
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 93%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -188,6 +191,10 @@ h3,
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+
+.row {
+  width:100%;
 }
 
 .auth-image {
@@ -241,18 +248,23 @@ input[type=submit] {
 .navbar {
   width:100%;
   margin-top: 0%;
-  padding:20px;
-  float:left;
+  padding:10px;
 }
 
 .navbar-header {
-  background-color:#4aaaa5;
-  color:red;
+  
 }
 
 .navbar-nav a {
-  color:#ff0000;
-  font-size: 30px;
-  padding:10px;
-  float:left;
+  font-size: 18px;
+
+}
+
+.navbar-brand {
+  background-color:#4aaaa5;
+  height:100%;
+}
+
+.navbar-default {
+  margin-bottom:-10px;
 }
